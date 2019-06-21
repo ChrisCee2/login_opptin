@@ -1,0 +1,54 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These 
+// styles are for the entire app and not just one component. Additionally, this 
+// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// and used throughout the application.
+.center {
+    margin: auto;
+    margin-top: 75px;
+    background: #2E2E2E;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    height: 450px;
+    width: 500px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.centbox {
+    margin: auto;
+    margin-top: 40px;
+    width: 75%;
+}
+
+.link {
+    color: #33F6FE;
+    text-decoration: none;
+}
+
+.al {
+    text-align: left;
+}
+
+.ar {
+    text-align: right;
+}
+
+.inputbox {
+    background: #303338;
+    border-radius: 4px;
+}
+
+.bg {
+    --background: #777777 url("../assets/bg.jpg") fixed no-repeat center center;
+}
+
+.small {
+    font-size: 14px
+}
+
+.big {
+    font-size: 24px
+}
